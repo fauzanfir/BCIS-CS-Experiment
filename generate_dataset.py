@@ -7,7 +7,6 @@ def generate(num):
         file.writelines(str(val) + "\n")
         i += 1
 
-# generate(500)
-# generate(5000)
-# generate(50000)
-generate(3000)
+generate(500)
+generate(5000)
+generate(50000)
